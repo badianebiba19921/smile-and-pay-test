@@ -1,0 +1,13 @@
+com\smile\and\pay\ebb\repository\AddressRepository.class
+com\smile\and\pay\ebb\SmileAndPayTestApplication.class
+com\smile\and\pay\ebb\repository\MarchandRepository.class
+com\smile\and\pay\ebb\models\Address.class
+com\smile\and\pay\ebb\repository\ProductRepository.class
+com\smile\and\pay\ebb\config\WebServiceConfiguration.class
+com\smile\and\pay\ebb\models\Marchand.class
+com\smile\and\pay\ebb\soap\SmileAndPayServiceImpl.class
+com\smile\and\pay\ebb\rest\SmileAndPayRest.class
+com\smile\and\pay\ebb\models\Product.class
+com\smile\and\pay\ebb\models\SmileAndPayResponse.class
+com\smile\and\pay\ebb\models\MarchandProduct.class
+com\smile\and\pay\ebb\soap\SmileAndPayService.class
