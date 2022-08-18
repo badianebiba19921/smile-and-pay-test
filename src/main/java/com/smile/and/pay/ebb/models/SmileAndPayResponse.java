@@ -1,11 +1,15 @@
 package com.smile.and.pay.ebb.models;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
-@Data
+@Setter
+@Getter
 @XmlRootElement
 public class SmileAndPayResponse implements Serializable {
 

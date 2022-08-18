@@ -35,7 +35,7 @@ public class WebServiceConfiguration {
     @Bean
     public Endpoint endpoint() {
         EndpointImpl endpoint = new EndpointImpl(springBus(), smileAndPayService());
-        endpoint.publish("/SmileAndPayService_1.0");
+        endpoint.publish(SERVICE_URL);
         endpoint.setWsdlLocation("SmileAndPayService1.0.wsdl");
         return endpoint;
     }

@@ -153,6 +153,12 @@
     </xs:complexType>
   </xs:element>
 
+  <xs:complexType name="operationType">
+    <xs:sequence/>
+    <xs:attribute name="location" type="xs:anyURI" use="required"/>
+    <xs:anyAttribute namespace="##other" processContents="skip"/>
+  </xs:complexType>
+
   <xs:complexType name="addressType">
     <xs:sequence/>
     <xs:attribute name="location" type="xs:anyURI" use="required"/>
@@ -162,12 +168,6 @@
   <xs:complexType name="bindingType">
     <xs:sequence/>
     <xs:attribute name="verb" type="xs:NMTOKEN" use="required"/>
-    <xs:anyAttribute namespace="##other" processContents="skip"/>
-  </xs:complexType>
-
-  <xs:complexType name="operationType">
-    <xs:sequence/>
-    <xs:attribute name="location" type="xs:anyURI" use="required"/>
     <xs:anyAttribute namespace="##other" processContents="skip"/>
   </xs:complexType>
 

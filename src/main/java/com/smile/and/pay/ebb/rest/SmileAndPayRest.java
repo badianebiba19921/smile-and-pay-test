@@ -8,9 +8,9 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -26,7 +26,10 @@ public class SmileAndPayRest {
 
     @GetMapping("/marchands")
     public ResponseEntity<List<Marchand>> getAllMarchands() {
-        List<Marchand> marchands = marchandRepository.findAll();
+        System.out.println("## getAllMarchands ");
+        List<Marchand> marchands = new ArrayList<>();
+        marchandRepository.findAll().forEach(marchands::add);
+        System.out.println("## getAllMarchands ==> " + marchands);
         if (CollectionUtils.isEmpty(marchands)) {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
@@ -44,10 +47,14 @@ public class SmileAndPayRest {
 
     @PutMapping("/marchands/{id}")
     public ResponseEntity<Marchand> updateMarchand(@PathVariable("id") int id, @RequestBody Marchand marchand) {
+        System.out.println("## updateMarchand ==> " + marchand);
         Optional<Marchand> _marchand = marchandRepository.findById(id);
         if(_marchand.isPresent()){
-            marchand.setId(_marchand.get().getId());
-            return new ResponseEntity<>(marchandRepository.save(marchand), HttpStatus.OK);
+            _marchand.get().setCreate_date(marchand.getCreate_date());
+            _marchand.get().setName(marchand.getName());
+            _marchand.get().setLastname(marchand.getLastname());
+            _marchand.get().setBirthdate(marchand.getBirthdate());
+            return new ResponseEntity<>(marchandRepository.save(_marchand.get()), HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
@@ -72,16 +79,23 @@ public class SmileAndPayRest {
 
     @PutMapping("/products/{id}")
     public ResponseEntity<Product> updateProduct(@PathVariable("id") int id, @RequestBody Product product) {
+        System.out.println("## updateProduct ==> " + product);
         Optional<Product> _product = productRepository.findById(id);
         if(_product.isPresent()){
-            product.setId(_product.get().getId());
-            return new ResponseEntity<>(productRepository.save(product), HttpStatus.OK);
+            _product.get().setCreate_date(product.getCreate_date());
+            _product.get().setLabel(product.getLabel());
+            _product.get().setUnit_price(product.getUnit_price());
+            _product.get().setCurrency(product.getCurrency());
+            _product.get().setWeight(product.getWeight());
+            _product.get().setHeight(product.getHeight());
+            return new ResponseEntity<>(productRepository.save(_product.get()), HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<Marchand> exception(Exception e, Model model){
+    public ResponseEntity<Marchand> exception(Exception e){
+        System.out.println("## exception ==> " + e);
         return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

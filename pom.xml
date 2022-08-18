@@ -79,7 +79,6 @@
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>${cxf.version}</version>
         </dependency>
-
     </dependencies>
     <build>
         <plugins>

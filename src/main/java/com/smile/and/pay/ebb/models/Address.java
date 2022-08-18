@@ -1,14 +1,16 @@
 package com.smile.and.pay.ebb.models;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
-@Data
+@Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -21,7 +23,7 @@ public class Address implements Serializable {
     private int number;
     private String street;
     private String zip_code;
-    @ManyToOne(cascade = {CascadeType.ALL,CascadeType.MERGE, CascadeType.PERSIST})
+    @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.ALL})
     @JoinColumn( name="id_marchand" )
     private Marchand marchand;
 }

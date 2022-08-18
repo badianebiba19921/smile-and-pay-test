@@ -1,6 +1,8 @@
 # smile-and-pay-test
 
-Démarrer du projet Spring Boot 2 ==> mvn spring-boot:run
+Créer la base de donnée testdb sur postgreSql et démarrer l'instance
+
+Démarrer du projet Spring Boot 2 ==> éxecuter cette commande maven mvn spring-boot:run à la racine du projet
 
 Le WSDL se trouve dans cette URL http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl
 

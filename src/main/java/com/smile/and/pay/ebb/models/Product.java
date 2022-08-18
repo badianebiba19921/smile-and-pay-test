@@ -1,8 +1,6 @@
 package com.smile.and.pay.ebb.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -11,7 +9,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Data
+@Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -27,7 +26,8 @@ public class Product implements Serializable {
     private String currency;
     private double weight;
     private double height;
-    @ManyToMany
+
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable( name = "marchands_products",
             joinColumns = @JoinColumn( name = "id_product" ),
             inverseJoinColumns = @JoinColumn( name = "id_marchand" ) )
