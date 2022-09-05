@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.smile.and.pay.ebb.soap.SoapControllerTest" time="11.107" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\u177229\work\artemis\workspaces\workExplore\smile-and-pay-test\target\test-classes;C:\Users\u177229\work\artemis\workspaces\workExplore\smile-and-pay-test\target\classes;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.7.0\spring-boot-starter-data-jpa-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.7.0\spring-boot-starter-aop-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-aop\5.3.20\spring-aop-5.3.20.jar;C:\Users\u177229\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.7.0\spring-boot-starter-jdbc-2.7.0.jar;C:\Users\u177229\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-jdbc\5.3.20\spring-jdbc-5.3.20.jar;C:\Users\u177229\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\u177229\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\u177229\.m2\repository\org\hibernate\hibernate-core\5.6.9.Final\hibernate-core-5.6.9.Final.jar;C:\Users\u177229\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\u177229\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\u177229\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\u177229\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\u177229\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\u177229\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\u177229\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.6\jaxb-runtime-2.3.6.jar;C:\Users\u177229\.m2\repository\org\glassfish\jaxb\txw2\2.3.6\txw2-2.3.6.jar;C:\Users\u177229\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\u177229\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-jpa\2.7.0\spring-data-jpa-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-commons\2.7.0\spring-data-commons-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-orm\5.3.20\spring-orm-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-context\5.3.20\spring-context-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-tx\5.3.20\spring-tx-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-aspects\5.3.20\spring-aspects-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\2.7.0\spring-boot-starter-data-rest-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-rest-webmvc\3.7.0\spring-data-rest-webmvc-3.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-rest-core\3.7.0\spring-data-rest-core-3.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\hateoas\spring-hateoas\1.5.0\spring-hateoas-1.5.0.jar;C:\Users\u177229\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\u177229\.m2\repository\org\atteo\evo-inflector\1.3\evo-inflector-1.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.0\spring-boot-starter-web-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.0\spring-boot-starter-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.0\spring-boot-starter-logging-2.7.0.jar;C:\Users\u177229\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\u177229\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\u177229\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\u177229\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\u177229\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\u177229\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.0\spring-boot-starter-json-2.7.0.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-web\5.3.20\spring-web-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-webmvc\5.3.20\spring-webmvc-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-expression\5.3.20\spring-expression-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-devtools\2.7.0\spring-boot-devtools-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot\2.7.0\spring-boot-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.0\spring-boot-autoconfigure-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.0\spring-boot-starter-tomcat-2.7.0.jar;C:\Users\u177229\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\u177229\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.63\tomcat-embed-core-9.0.63.jar;C:\Users\u177229\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.63\tomcat-embed-el-9.0.63.jar;C:\Users\u177229\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.63\tomcat-embed-websocket-9.0.63.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.7.0\spring-boot-starter-test-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-test\2.7.0\spring-boot-test-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.7.0\spring-boot-test-autoconfigure-2.7.0.jar;C:\Users\u177229\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\u177229\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar;C:\Users\u177229\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar;C:\Users\u177229\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\u177229\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\u177229\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\u177229\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\u177229\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\u177229\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\u177229\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\u177229\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\u177229\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\u177229\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\u177229\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\u177229\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\u177229\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\u177229\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-core\5.3.20\spring-core-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-jcl\5.3.20\spring-jcl-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-test\5.3.20\spring-test-5.3.20.jar;C:\Users\u177229\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\u177229\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\u177229\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\u177229\.m2\repository\org\postgresql\postgresql\42.4.1\postgresql-42.4.1.jar;C:\Users\u177229\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\u177229\.m2\repository\org\springdoc\springdoc-openapi-ui\1.6.7\springdoc-openapi-ui-1.6.7.jar;C:\Users\u177229\.m2\repository\org\springdoc\springdoc-openapi-webmvc-core\1.6.7\springdoc-openapi-webmvc-core-1.6.7.jar;C:\Users\u177229\.m2\repository\org\springdoc\springdoc-openapi-common\1.6.7\springdoc-openapi-common-1.6.7.jar;C:\Users\u177229\.m2\repository\io\swagger\core\v3\swagger-core\2.2.0\swagger-core-2.2.0.jar;C:\Users\u177229\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.13.3\jackson-dataformat-yaml-2.13.3.jar;C:\Users\u177229\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.0\swagger-annotations-2.2.0.jar;C:\Users\u177229\.m2\repository\io\swagger\core\v3\swagger-models\2.2.0\swagger-models-2.2.0.jar;C:\Users\u177229\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\u177229\.m2\repository\org\webjars\swagger-ui\4.10.3\swagger-ui-4.10.3.jar;C:\Users\u177229\.m2\repository\org\webjars\webjars-locator-core\0.50\webjars-locator-core-0.50.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\u177229\.m2\repository\io\github\classgraph\classgraph\4.8.143\classgraph-4.8.143.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxws\3.1.6\cxf-rt-frontend-jaxws-3.1.6.jar;C:\Users\u177229\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\u177229\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-core\3.1.6\cxf-core-3.1.6.jar;C:\Users\u177229\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\u177229\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\u177229\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.2.1\xmlschema-core-2.2.1.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-bindings-soap\3.1.6\cxf-rt-bindings-soap-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-wsdl\3.1.6\cxf-rt-wsdl-3.1.6.jar;C:\Users\u177229\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-databinding-jaxb\3.1.6\cxf-rt-databinding-jaxb-3.1.6.jar;C:\Users\u177229\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-impl-2.2.11.jar;C:\Users\u177229\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-core-2.2.11.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-bindings-xml\3.1.6\cxf-rt-bindings-xml-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-frontend-simple\3.1.6\cxf-rt-frontend-simple-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-ws-addr\3.1.6\cxf-rt-ws-addr-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-ws-policy\3.1.6\cxf-rt-ws-policy-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-transports-http\3.1.6\cxf-rt-transports-http-3.1.6.jar;C:\Users\u177229\.m2\repository\com\jayway\jsonpath\json-path-assert\2.7.0\json-path-assert-2.7.0.jar;C:\Users\u177229\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\u177229\AppData\Local\Temp\surefire1336026171264851658\surefirebooter3005576901682505726.jar C:\Users\u177229\AppData\Local\Temp\surefire1336026171264851658 2022-09-05T11-19-40_267-jvmRun1 surefire3072481313986252809tmp surefire_05347979733423106360tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\u177229\work\artemis\workspaces\workExplore\smile-and-pay-test\target\test-classes;C:\Users\u177229\work\artemis\workspaces\workExplore\smile-and-pay-test\target\classes;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.7.0\spring-boot-starter-data-jpa-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.7.0\spring-boot-starter-aop-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-aop\5.3.20\spring-aop-5.3.20.jar;C:\Users\u177229\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.7.0\spring-boot-starter-jdbc-2.7.0.jar;C:\Users\u177229\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-jdbc\5.3.20\spring-jdbc-5.3.20.jar;C:\Users\u177229\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\u177229\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\u177229\.m2\repository\org\hibernate\hibernate-core\5.6.9.Final\hibernate-core-5.6.9.Final.jar;C:\Users\u177229\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\u177229\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\u177229\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\u177229\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\u177229\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\u177229\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\u177229\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.6\jaxb-runtime-2.3.6.jar;C:\Users\u177229\.m2\repository\org\glassfish\jaxb\txw2\2.3.6\txw2-2.3.6.jar;C:\Users\u177229\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\u177229\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-jpa\2.7.0\spring-data-jpa-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-commons\2.7.0\spring-data-commons-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-orm\5.3.20\spring-orm-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-context\5.3.20\spring-context-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-tx\5.3.20\spring-tx-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-aspects\5.3.20\spring-aspects-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\2.7.0\spring-boot-starter-data-rest-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-rest-webmvc\3.7.0\spring-data-rest-webmvc-3.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\data\spring-data-rest-core\3.7.0\spring-data-rest-core-3.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\hateoas\spring-hateoas\1.5.0\spring-hateoas-1.5.0.jar;C:\Users\u177229\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\u177229\.m2\repository\org\atteo\evo-inflector\1.3\evo-inflector-1.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.0\spring-boot-starter-web-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.0\spring-boot-starter-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.0\spring-boot-starter-logging-2.7.0.jar;C:\Users\u177229\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\u177229\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\u177229\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\u177229\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\u177229\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\u177229\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.0\spring-boot-starter-json-2.7.0.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-web\5.3.20\spring-web-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-webmvc\5.3.20\spring-webmvc-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-expression\5.3.20\spring-expression-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-devtools\2.7.0\spring-boot-devtools-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot\2.7.0\spring-boot-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.0\spring-boot-autoconfigure-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.0\spring-boot-starter-tomcat-2.7.0.jar;C:\Users\u177229\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\u177229\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.63\tomcat-embed-core-9.0.63.jar;C:\Users\u177229\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.63\tomcat-embed-el-9.0.63.jar;C:\Users\u177229\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.63\tomcat-embed-websocket-9.0.63.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.7.0\spring-boot-starter-test-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-test\2.7.0\spring-boot-test-2.7.0.jar;C:\Users\u177229\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.7.0\spring-boot-test-autoconfigure-2.7.0.jar;C:\Users\u177229\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\u177229\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar;C:\Users\u177229\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar;C:\Users\u177229\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\u177229\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\u177229\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\u177229\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\u177229\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\u177229\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\u177229\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\u177229\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\u177229\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\u177229\.m2\repository\org\mockito\mockito-core\4.5.1\mockito-core-4.5.1.jar;C:\Users\u177229\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\u177229\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\u177229\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.1\mockito-junit-jupiter-4.5.1.jar;C:\Users\u177229\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\u177229\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-core\5.3.20\spring-core-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-jcl\5.3.20\spring-jcl-5.3.20.jar;C:\Users\u177229\.m2\repository\org\springframework\spring-test\5.3.20\spring-test-5.3.20.jar;C:\Users\u177229\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\u177229\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\u177229\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\u177229\.m2\repository\org\postgresql\postgresql\42.4.1\postgresql-42.4.1.jar;C:\Users\u177229\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\u177229\.m2\repository\org\springdoc\springdoc-openapi-ui\1.6.7\springdoc-openapi-ui-1.6.7.jar;C:\Users\u177229\.m2\repository\org\springdoc\springdoc-openapi-webmvc-core\1.6.7\springdoc-openapi-webmvc-core-1.6.7.jar;C:\Users\u177229\.m2\repository\org\springdoc\springdoc-openapi-common\1.6.7\springdoc-openapi-common-1.6.7.jar;C:\Users\u177229\.m2\repository\io\swagger\core\v3\swagger-core\2.2.0\swagger-core-2.2.0.jar;C:\Users\u177229\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.13.3\jackson-dataformat-yaml-2.13.3.jar;C:\Users\u177229\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.0\swagger-annotations-2.2.0.jar;C:\Users\u177229\.m2\repository\io\swagger\core\v3\swagger-models\2.2.0\swagger-models-2.2.0.jar;C:\Users\u177229\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\u177229\.m2\repository\org\webjars\swagger-ui\4.10.3\swagger-ui-4.10.3.jar;C:\Users\u177229\.m2\repository\org\webjars\webjars-locator-core\0.50\webjars-locator-core-0.50.jar;C:\Users\u177229\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\u177229\.m2\repository\io\github\classgraph\classgraph\4.8.143\classgraph-4.8.143.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxws\3.1.6\cxf-rt-frontend-jaxws-3.1.6.jar;C:\Users\u177229\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\u177229\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-core\3.1.6\cxf-core-3.1.6.jar;C:\Users\u177229\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\u177229\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\u177229\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.2.1\xmlschema-core-2.2.1.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-bindings-soap\3.1.6\cxf-rt-bindings-soap-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-wsdl\3.1.6\cxf-rt-wsdl-3.1.6.jar;C:\Users\u177229\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-databinding-jaxb\3.1.6\cxf-rt-databinding-jaxb-3.1.6.jar;C:\Users\u177229\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-impl-2.2.11.jar;C:\Users\u177229\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-core-2.2.11.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-bindings-xml\3.1.6\cxf-rt-bindings-xml-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-frontend-simple\3.1.6\cxf-rt-frontend-simple-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-ws-addr\3.1.6\cxf-rt-ws-addr-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-ws-policy\3.1.6\cxf-rt-ws-policy-3.1.6.jar;C:\Users\u177229\.m2\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar;C:\Users\u177229\.m2\repository\org\apache\cxf\cxf-rt-transports-http\3.1.6\cxf-rt-transports-http-3.1.6.jar;C:\Users\u177229\.m2\repository\com\jayway\jsonpath\json-path-assert\2.7.0\json-path-assert-2.7.0.jar;C:\Users\u177229\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\u177229"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre"/>
+    <property name="basedir" value="C:\Users\u177229\work\artemis\workspaces\workExplore\smile-and-pay-test"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\u177229\AppData\Local\Temp\surefire1336026171264851658\surefirebooter3005576901682505726.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\resources.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\rt.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\sunrsasign.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\jsse.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\jce.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\charsets.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\jfr.jar;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0-262-b10"/>
+    <property name="user.name" value="u177229"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK Server VM"/>
+    <property name="localRepository" value="C:\Users\u177229\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\u177229\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.2"/>
+    <property name="java.version" value="1.8.0-262"/>
+    <property name="user.dir" value="C:\Users\u177229\work\artemis\workspaces\workExplore\smile-and-pay-test"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\ProgramData\DockerDesktop\version-bin;C:\Users\u177229\.jbang\bin;C:\Users\u177229\AppData\Local\Microsoft\WindowsApps;C:\Users\u177229\AppData\Local\Programs\Git\cmd;C:\Users\u177229\work\Kubernetes;C:\Users\u177229\work\logiciels\node-v16.14.0-win-x64;C:\Users\u177229\work\logiciels\mavens\apache-maven-3.8.6\bin;C:\Users\u177229\work\logiciels\chocolatey\bin;C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\bin;C:\Users\u177229\work\logiciels\zip-3.0-bin\bin;C:\Users\u177229\.sdkman\candidates\java\22.1.0.r17-grl\bin;C:\Users\u177229\.sdkman\candidates\java\22.1.0.r17-grl\lib\installer\bin;C:\Users\u177229\work\logiciels\postgresql\postgresql-14.4-1-windows-x64-binaries\pgsql\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="OpenLogic-OpenJDK"/>
+    <property name="java.vm.version" value="25.71-b10"/>
+    <property name="java.ext.dirs" value="C:\Users\u177229\work\logiciels\jdks\openlogic-openjdk-8u262-b10-win-32\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test_delete_product" classname="com.smile.and.pay.ebb.soap.SoapControllerTest" time="4.684">
+    <error message="Could not send Message." type="javax.xml.ws.WebServiceException">javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+</error>
+    <system-out><![CDATA[11:19:42.798 [main] DEBUG org.apache.cxf.common.logging.LogUtils - Using org.apache.cxf.common.logging.Slf4jLogger for logging.
+11:19:43.148 [main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService from class com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:43.684 [main] DEBUG org.apache.cxf.jaxb.JAXBDataBinding - Created JAXBContext "jar:file:/C:/Users/u177229/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.3.6
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.smile.and.pay.ebb.models.Address
+  com.smile.and.pay.ebb.models.Marchand
+  com.smile.and.pay.ebb.models.Product
+  com.smile.and.pay.ebb.models.SmileAndPayResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.Associate
+  com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse
+  com.sun.xml.bind.api.CompositeStructure
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  org.apache.cxf.wsdl.http.AddressType
+  org.apache.cxf.wsdl.http.BindingType
+  org.apache.cxf.wsdl.http.OperationType
+  org.apache.cxf.wsdl.http.UrlEncoded
+  org.apache.cxf.wsdl.http.UrlReplacement
+  short
+  void
+" with classes [class com.smile.and.pay.ebb.soap.jaxws_asm.Associate, class com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse, class com.smile.and.pay.ebb.models.SmileAndPayResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct, class com.smile.and.pay.ebb.models.Product, class com.smile.and.pay.ebb.models.Marchand, class com.smile.and.pay.ebb.models.Address, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse, class org.apache.cxf.wsdl.http.ObjectFactory].
+11:19:43.972 [main] DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource <org.apache.cxf.wsdl11.WSDLManagerImpl/bus> type <interface org.apache.cxf.Bus>
+11:19:43.974 [main] DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource <null> type <interface org.apache.cxf.Bus>
+11:19:44.154 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - building handler chain
+11:19:44.154 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - Checking for HandlerChain annotation on com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:44.154 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - no HandlerChain annotation on interface com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:44.164 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Invoke, operation info: [BindingOperationInfo: {http://soap.ebb.pay.and.smile.com/}deleteProductById], params: [5]
+11:19:44.167 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - set requestContext to message be{org.apache.cxf.jaxws.context.WrappedMessageContext.SCOPES={org.apache.cxf.message.Message.ENDPOINT_ADDRESS=APPLICATION}, org.apache.cxf.message.Message.ENDPOINT_ADDRESS=http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl, java.lang.reflect.Method=public abstract com.smile.and.pay.ebb.models.SmileAndPayResponse com.smile.and.pay.ebb.soap.SmileAndPayService.deleteProductById(int)}
+11:19:44.170 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by bus: [org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b]
+11:19:44.170 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by client: [org.apache.cxf.interceptor.LoggingOutInterceptor@fde75f]
+11:19:44.170 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@16ecee1, org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1220bcb, org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@195e48b, org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@3329b9]
+11:19:44.170 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by binding: [org.apache.cxf.interceptor.AttachmentOutInterceptor@1ddefd8, org.apache.cxf.interceptor.StaxOutInterceptor@ac7fb, org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d, org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1925502, org.apache.cxf.wsdl.interceptors.BareOutInterceptor@1e3c1c7, org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@116e95f, org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1053c80]
+11:19:44.170 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by databinding: []
+11:19:44.177 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b to phase setup
+11:19:44.177 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@fde75f to phase pre-stream
+11:19:44.179 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@16ecee1 to phase prepare-send
+11:19:44.179 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1220bcb to phase pre-logical
+11:19:44.179 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@195e48b to phase pre-logical
+11:19:44.179 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@3329b9 to phase pre-logical
+11:19:44.179 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@1ddefd8 to phase pre-stream
+11:19:44.179 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutInterceptor@ac7fb to phase pre-stream
+11:19:44.180 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d to phase pre-logical
+11:19:44.180 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1925502 to phase marshal
+11:19:44.180 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@1e3c1c7 to phase marshal
+11:19:44.180 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@116e95f to phase post-logical
+11:19:44.180 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1053c80 to phase write
+11:19:44.248 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been (re)configured for plain http.
+11:19:44.249 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:44.249 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Auth Supplier configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:44.249 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been configured for plain http.
+11:19:44.249 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - registering incoming observer: org.apache.cxf.endpoint.ClientImpl@1c44dec
+11:19:44.251 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@92b61e was created. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+
+11:19:44.251 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:44.259 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@3329b9
+11:19:44.260 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op: [OperationInfo: {http://soap.ebb.pay.and.smile.com/}deleteProductById]
+11:19:44.260 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.hasOutput(): true
+11:19:44.260 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.getOutput().size(): 1
+11:19:44.261 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1220bcb
+11:19:44.263 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@195e48b
+11:19:44.277 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:44.279 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@116e95f
+11:19:44.279 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@16ecee1
+11:19:44.303 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@56e013 to phase prepare-send-ending
+11:19:44.304 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@92b61e was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:44.304 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@fde75f
+11:19:44.309 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@1ddefd8
+11:19:45.134 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@ac7fb
+11:19:45.216 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3 to phase pre-stream-ending
+11:19:45.217 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@92b61e was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:45.217 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1053c80
+11:19:45.220 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@9635fa to phase write-ending
+11:19:45.222 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@92b61e was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  write-ending [SoapOutEndingInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:45.222 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1925502
+11:19:45.222 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@1e3c1c7
+11:19:45.250 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@9635fa
+11:19:45.251 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:45.251 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@56e013
+11:19:45.252 [main] INFO org.apache.cxf.services.SmileAndPayServiceService.SmileAndPayServicePort.SmileAndPayService - Outbound Message
+---------------------------
+ID: 1
+Address: http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], SOAPAction=[""]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:deleteProductById xmlns:ns2="http://soap.ebb.pay.and.smile.com/" xmlns:ns3="http://schemas.xmlsoap.org/wsdl/http/"><productId>5</productId></ns2:deleteProductById></soap:Body></soap:Envelope>
+--------------------------------------
+11:19:45.254 [main] DEBUG org.apache.cxf.transport.http.Headers - Accept: */*
+11:19:45.255 [main] DEBUG org.apache.cxf.transport.http.Headers - SOAPAction: ""
+11:19:45.255 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'. An afirmative Trust Decision is assumed.
+11:19:47.319 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@56e013
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@9635fa
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@1e3c1c7
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1925502
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1053c80
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@ac7fb
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@1ddefd8
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@fde75f
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@16ecee1
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@116e95f
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@195e48b
+11:19:47.320 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1220bcb
+11:19:47.321 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@3329b9
+11:19:47.321 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:47.329 [main] WARN org.apache.cxf.phase.PhaseInterceptorChain - Interceptor for {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService#{http://soap.ebb.pay.and.smile.com/}deleteProductById has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:514)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:423)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:324)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:277)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:139)
+	at com.sun.proxy.$Proxy90.deleteProductById(Unknown Source)
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1377)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1361)
+	at org.apache.cxf.io.CacheAndWriteOutputStream.postClose(CacheAndWriteOutputStream.java:56)
+	at org.apache.cxf.io.CachedOutputStream.close(CachedOutputStream.java:216)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:651)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 74 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:236)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1320)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1280)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:267)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1333)
+	... 79 common frames omitted
+]]></system-out>
+  </testcase>
+  <testcase name="test_add_product" classname="com.smile.and.pay.ebb.soap.SoapControllerTest" time="2.132">
+    <error message="Could not send Message." type="javax.xml.ws.WebServiceException">javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+</error>
+    <system-out><![CDATA[11:19:47.347 [main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService from class com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:47.391 [main] DEBUG org.apache.cxf.jaxb.JAXBDataBinding - Created JAXBContext "jar:file:/C:/Users/u177229/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.3.6
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.smile.and.pay.ebb.models.Address
+  com.smile.and.pay.ebb.models.Marchand
+  com.smile.and.pay.ebb.models.Product
+  com.smile.and.pay.ebb.models.SmileAndPayResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.Associate
+  com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse
+  com.sun.xml.bind.api.CompositeStructure
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  org.apache.cxf.wsdl.http.AddressType
+  org.apache.cxf.wsdl.http.BindingType
+  org.apache.cxf.wsdl.http.OperationType
+  org.apache.cxf.wsdl.http.UrlEncoded
+  org.apache.cxf.wsdl.http.UrlReplacement
+  short
+  void
+" with classes [class com.smile.and.pay.ebb.soap.jaxws_asm.Associate, class com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse, class com.smile.and.pay.ebb.models.SmileAndPayResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct, class com.smile.and.pay.ebb.models.Product, class com.smile.and.pay.ebb.models.Marchand, class com.smile.and.pay.ebb.models.Address, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse, class org.apache.cxf.wsdl.http.ObjectFactory].
+11:19:47.402 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - building handler chain
+11:19:47.402 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - Checking for HandlerChain annotation on com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:47.402 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - no HandlerChain annotation on interface com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:47.404 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Invoke, operation info: [BindingOperationInfo: {http://soap.ebb.pay.and.smile.com/}addProduct], params: [com.smile.and.pay.ebb.models.Product@ab9998]
+11:19:47.404 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - set requestContext to message be{org.apache.cxf.jaxws.context.WrappedMessageContext.SCOPES={org.apache.cxf.message.Message.ENDPOINT_ADDRESS=APPLICATION}, org.apache.cxf.message.Message.ENDPOINT_ADDRESS=http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl, java.lang.reflect.Method=public abstract com.smile.and.pay.ebb.models.SmileAndPayResponse com.smile.and.pay.ebb.soap.SmileAndPayService.addProduct(com.smile.and.pay.ebb.models.Product)}
+11:19:47.404 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by bus: [org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b]
+11:19:47.404 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by client: [org.apache.cxf.interceptor.LoggingOutInterceptor@17a7219]
+11:19:47.405 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@9513d8, org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1d593e, org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@8a60bc, org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@1c294e]
+11:19:47.405 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by binding: [org.apache.cxf.interceptor.AttachmentOutInterceptor@59e786, org.apache.cxf.interceptor.StaxOutInterceptor@5d851a, org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d, org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@14b8f2d, org.apache.cxf.wsdl.interceptors.BareOutInterceptor@4a9613, org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@118388b, org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1a902e7]
+11:19:47.405 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by databinding: []
+11:19:47.405 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b to phase setup
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@17a7219 to phase pre-stream
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@9513d8 to phase prepare-send
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1d593e to phase pre-logical
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@8a60bc to phase pre-logical
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@1c294e to phase pre-logical
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@59e786 to phase pre-stream
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutInterceptor@5d851a to phase pre-stream
+11:19:47.406 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d to phase pre-logical
+11:19:47.407 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@14b8f2d to phase marshal
+11:19:47.407 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@4a9613 to phase marshal
+11:19:47.407 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@118388b to phase post-logical
+11:19:47.407 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1a902e7 to phase write
+11:19:47.407 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been (re)configured for plain http.
+11:19:47.408 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:47.408 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Auth Supplier configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:47.408 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been configured for plain http.
+11:19:47.408 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - registering incoming observer: org.apache.cxf.endpoint.ClientImpl@76d598
+11:19:47.409 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@3e3e8b was created. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+
+11:19:47.409 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:47.409 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@1c294e
+11:19:47.409 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op: [OperationInfo: {http://soap.ebb.pay.and.smile.com/}addProduct]
+11:19:47.409 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.hasOutput(): true
+11:19:47.409 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.getOutput().size(): 1
+11:19:47.409 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1d593e
+11:19:47.410 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@8a60bc
+11:19:47.416 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:47.416 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@118388b
+11:19:47.416 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@9513d8
+11:19:47.417 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@185cbcb to phase prepare-send-ending
+11:19:47.417 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@3e3e8b was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:47.417 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@17a7219
+11:19:47.417 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@59e786
+11:19:47.418 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@5d851a
+11:19:47.418 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3 to phase pre-stream-ending
+11:19:47.418 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@3e3e8b was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:47.419 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1a902e7
+11:19:47.419 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@f46e16 to phase write-ending
+11:19:47.419 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@3e3e8b was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  write-ending [SoapOutEndingInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:47.419 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@14b8f2d
+11:19:47.419 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@4a9613
+11:19:47.424 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@f46e16
+11:19:47.424 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:47.424 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@185cbcb
+11:19:47.424 [main] INFO org.apache.cxf.services.SmileAndPayServiceService.SmileAndPayServicePort.SmileAndPayService - Outbound Message
+---------------------------
+ID: 2
+Address: http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], SOAPAction=[""]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:addProduct xmlns:ns2="http://soap.ebb.pay.and.smile.com/" xmlns:ns3="http://schemas.xmlsoap.org/wsdl/http/"><product><create_date>2022-09-05T11:19:47.403+02:00</create_date><currency>EUR</currency><height>45.5</height><label>Computer</label><marchands><birthdate>1976-02-22T11:42:13.783+01:00</birthdate><create_date>2022-09-05T11:19:47.403+02:00</create_date><lastname>Moretti</lastname><name>Dupont</name></marchands><unit_price>700.13</unit_price><weight>1200.35</weight></product></ns2:addProduct></soap:Body></soap:Envelope>
+--------------------------------------
+11:19:47.424 [main] DEBUG org.apache.cxf.transport.http.Headers - Accept: */*
+11:19:47.424 [main] DEBUG org.apache.cxf.transport.http.Headers - SOAPAction: ""
+11:19:47.424 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'. An afirmative Trust Decision is assumed.
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@185cbcb
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@f46e16
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@4a9613
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@14b8f2d
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@1a902e7
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@5d851a
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@59e786
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@17a7219
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@9513d8
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@118388b
+11:19:49.473 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:49.474 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@8a60bc
+11:19:49.474 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1d593e
+11:19:49.474 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@1c294e
+11:19:49.474 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:49.475 [main] WARN org.apache.cxf.phase.PhaseInterceptorChain - Interceptor for {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService#{http://soap.ebb.pay.and.smile.com/}addProduct has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:514)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:423)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:324)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:277)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:139)
+	at com.sun.proxy.$Proxy90.addProduct(Unknown Source)
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1377)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1361)
+	at org.apache.cxf.io.CacheAndWriteOutputStream.postClose(CacheAndWriteOutputStream.java:56)
+	at org.apache.cxf.io.CachedOutputStream.close(CachedOutputStream.java:216)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:651)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 74 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:236)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1320)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1280)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:267)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1333)
+	... 79 common frames omitted
+]]></system-out>
+  </testcase>
+  <testcase name="test_add_marchand" classname="com.smile.and.pay.ebb.soap.SoapControllerTest" time="2.131">
+    <error message="Could not send Message." type="javax.xml.ws.WebServiceException">javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+</error>
+    <system-out><![CDATA[11:19:49.479 [main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService from class com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:49.519 [main] DEBUG org.apache.cxf.jaxb.JAXBDataBinding - Created JAXBContext "jar:file:/C:/Users/u177229/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.3.6
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.smile.and.pay.ebb.models.Address
+  com.smile.and.pay.ebb.models.Marchand
+  com.smile.and.pay.ebb.models.Product
+  com.smile.and.pay.ebb.models.SmileAndPayResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.Associate
+  com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse
+  com.sun.xml.bind.api.CompositeStructure
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  org.apache.cxf.wsdl.http.AddressType
+  org.apache.cxf.wsdl.http.BindingType
+  org.apache.cxf.wsdl.http.OperationType
+  org.apache.cxf.wsdl.http.UrlEncoded
+  org.apache.cxf.wsdl.http.UrlReplacement
+  short
+  void
+" with classes [class com.smile.and.pay.ebb.soap.jaxws_asm.Associate, class com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse, class com.smile.and.pay.ebb.models.SmileAndPayResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct, class com.smile.and.pay.ebb.models.Product, class com.smile.and.pay.ebb.models.Marchand, class com.smile.and.pay.ebb.models.Address, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse, class org.apache.cxf.wsdl.http.ObjectFactory].
+11:19:49.525 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - building handler chain
+11:19:49.525 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - Checking for HandlerChain annotation on com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:49.525 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - no HandlerChain annotation on interface com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:49.526 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Invoke, operation info: [BindingOperationInfo: {http://soap.ebb.pay.and.smile.com/}addMarchand], params: [com.smile.and.pay.ebb.models.Marchand@1874b25]
+11:19:49.527 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - set requestContext to message be{org.apache.cxf.jaxws.context.WrappedMessageContext.SCOPES={org.apache.cxf.message.Message.ENDPOINT_ADDRESS=APPLICATION}, org.apache.cxf.message.Message.ENDPOINT_ADDRESS=http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl, java.lang.reflect.Method=public abstract com.smile.and.pay.ebb.models.SmileAndPayResponse com.smile.and.pay.ebb.soap.SmileAndPayService.addMarchand(com.smile.and.pay.ebb.models.Marchand)}
+11:19:49.527 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by bus: [org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b]
+11:19:49.528 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by client: [org.apache.cxf.interceptor.LoggingOutInterceptor@1617539]
+11:19:49.528 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@177f9e, org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1b4c359, org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@9775a9, org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@e7143f]
+11:19:49.528 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by binding: [org.apache.cxf.interceptor.AttachmentOutInterceptor@19b7332, org.apache.cxf.interceptor.StaxOutInterceptor@cec793, org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d, org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1efce9e, org.apache.cxf.wsdl.interceptors.BareOutInterceptor@18969b0, org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@1df8190, org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@12f2f27]
+11:19:49.528 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by databinding: []
+11:19:49.528 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b to phase setup
+11:19:49.528 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@1617539 to phase pre-stream
+11:19:49.528 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@177f9e to phase prepare-send
+11:19:49.528 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1b4c359 to phase pre-logical
+11:19:49.528 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@9775a9 to phase pre-logical
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@e7143f to phase pre-logical
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@19b7332 to phase pre-stream
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutInterceptor@cec793 to phase pre-stream
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d to phase pre-logical
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1efce9e to phase marshal
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@18969b0 to phase marshal
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@1df8190 to phase post-logical
+11:19:49.529 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@12f2f27 to phase write
+11:19:49.530 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been (re)configured for plain http.
+11:19:49.530 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:49.530 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Auth Supplier configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:49.530 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been configured for plain http.
+11:19:49.530 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - registering incoming observer: org.apache.cxf.endpoint.ClientImpl@a589a2
+11:19:49.531 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@65a5ef was created. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+
+11:19:49.531 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:49.532 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@e7143f
+11:19:49.532 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op: [OperationInfo: {http://soap.ebb.pay.and.smile.com/}addMarchand]
+11:19:49.532 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.hasOutput(): true
+11:19:49.533 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.getOutput().size(): 1
+11:19:49.533 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1b4c359
+11:19:49.533 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@9775a9
+11:19:49.538 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:49.539 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@1df8190
+11:19:49.539 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@177f9e
+11:19:49.539 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@1ab4aff to phase prepare-send-ending
+11:19:49.539 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@65a5ef was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:49.541 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@1617539
+11:19:49.541 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@19b7332
+11:19:49.541 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@cec793
+11:19:49.542 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3 to phase pre-stream-ending
+11:19:49.542 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@65a5ef was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:49.542 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@12f2f27
+11:19:49.542 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@c0c838 to phase write-ending
+11:19:49.542 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@65a5ef was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  write-ending [SoapOutEndingInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:49.543 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1efce9e
+11:19:49.543 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@18969b0
+11:19:49.544 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@c0c838
+11:19:49.544 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:49.544 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@1ab4aff
+11:19:49.544 [main] INFO org.apache.cxf.services.SmileAndPayServiceService.SmileAndPayServicePort.SmileAndPayService - Outbound Message
+---------------------------
+ID: 3
+Address: http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], SOAPAction=[""]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:addMarchand xmlns:ns2="http://soap.ebb.pay.and.smile.com/" xmlns:ns3="http://schemas.xmlsoap.org/wsdl/http/"><marchand><birthdate>1976-02-22T11:42:13.783+01:00</birthdate><create_date>2022-09-05T11:19:49.526+02:00</create_date><lastname>Moretti</lastname><name>Dupont</name></marchand></ns2:addMarchand></soap:Body></soap:Envelope>
+--------------------------------------
+11:19:49.545 [main] DEBUG org.apache.cxf.transport.http.Headers - Accept: */*
+11:19:49.545 [main] DEBUG org.apache.cxf.transport.http.Headers - SOAPAction: ""
+11:19:49.545 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'. An afirmative Trust Decision is assumed.
+11:19:51.598 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@1ab4aff
+11:19:51.598 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:51.598 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@c0c838
+11:19:51.598 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@18969b0
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1efce9e
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@12f2f27
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@cec793
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@19b7332
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@1617539
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@177f9e
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@1df8190
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@9775a9
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@1b4c359
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@e7143f
+11:19:51.599 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:51.602 [main] WARN org.apache.cxf.phase.PhaseInterceptorChain - Interceptor for {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService#{http://soap.ebb.pay.and.smile.com/}addMarchand has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:514)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:423)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:324)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:277)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:139)
+	at com.sun.proxy.$Proxy90.addMarchand(Unknown Source)
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1377)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1361)
+	at org.apache.cxf.io.CacheAndWriteOutputStream.postClose(CacheAndWriteOutputStream.java:56)
+	at org.apache.cxf.io.CachedOutputStream.close(CachedOutputStream.java:216)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:651)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 74 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:236)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1320)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1280)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:267)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1333)
+	... 79 common frames omitted
+]]></system-out>
+  </testcase>
+  <testcase name="test_delete_marchand" classname="com.smile.and.pay.ebb.soap.SoapControllerTest" time="2.156">
+    <error message="Could not send Message." type="javax.xml.ws.WebServiceException">javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+</error>
+    <system-out><![CDATA[11:19:51.611 [main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService from class com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:51.663 [main] DEBUG org.apache.cxf.jaxb.JAXBDataBinding - Created JAXBContext "jar:file:/C:/Users/u177229/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.3.6
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.smile.and.pay.ebb.models.Address
+  com.smile.and.pay.ebb.models.Marchand
+  com.smile.and.pay.ebb.models.Product
+  com.smile.and.pay.ebb.models.SmileAndPayResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct
+  com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.Associate
+  com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById
+  com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse
+  com.sun.xml.bind.api.CompositeStructure
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  org.apache.cxf.wsdl.http.AddressType
+  org.apache.cxf.wsdl.http.BindingType
+  org.apache.cxf.wsdl.http.OperationType
+  org.apache.cxf.wsdl.http.UrlEncoded
+  org.apache.cxf.wsdl.http.UrlReplacement
+  short
+  void
+" with classes [class com.smile.and.pay.ebb.soap.jaxws_asm.Associate, class com.smile.and.pay.ebb.soap.jaxws_asm.AssociateResponse, class com.smile.and.pay.ebb.models.SmileAndPayResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProduct, class com.smile.and.pay.ebb.models.Product, class com.smile.and.pay.ebb.models.Marchand, class com.smile.and.pay.ebb.models.Address, class com.smile.and.pay.ebb.soap.jaxws_asm.AddProductResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchand, class com.smile.and.pay.ebb.soap.jaxws_asm.AddMarchandResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteMarchandByIdResponse, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductById, class com.smile.and.pay.ebb.soap.jaxws_asm.DeleteProductByIdResponse, class org.apache.cxf.wsdl.http.ObjectFactory].
+11:19:51.670 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - building handler chain
+11:19:51.670 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - Checking for HandlerChain annotation on com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:51.670 [main] DEBUG org.apache.cxf.jaxws.handler.AnnotationHandlerChainBuilder - no HandlerChain annotation on interface com.smile.and.pay.ebb.soap.SmileAndPayService
+11:19:51.672 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Invoke, operation info: [BindingOperationInfo: {http://soap.ebb.pay.and.smile.com/}deleteMarchandById], params: [1]
+11:19:51.672 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - set requestContext to message be{org.apache.cxf.jaxws.context.WrappedMessageContext.SCOPES={org.apache.cxf.message.Message.ENDPOINT_ADDRESS=APPLICATION}, org.apache.cxf.message.Message.ENDPOINT_ADDRESS=http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl, java.lang.reflect.Method=public abstract com.smile.and.pay.ebb.models.SmileAndPayResponse com.smile.and.pay.ebb.soap.SmileAndPayService.deleteMarchandById(int)}
+11:19:51.672 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by bus: [org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b]
+11:19:51.673 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by client: [org.apache.cxf.interceptor.LoggingOutInterceptor@1ab2585]
+11:19:51.673 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@bdc168, org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@4c78d4, org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@12a02d9, org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@11f8234]
+11:19:51.685 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by binding: [org.apache.cxf.interceptor.AttachmentOutInterceptor@1b3a9fe, org.apache.cxf.interceptor.StaxOutInterceptor@bee484, org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d, org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1811d00, org.apache.cxf.wsdl.interceptors.BareOutInterceptor@923ee6, org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@89713, org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@119c9d2]
+11:19:51.685 [main] DEBUG org.apache.cxf.endpoint.ClientImpl - Interceptors contributed by databinding: []
+11:19:51.685 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b to phase setup
+11:19:51.685 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@1ab2585 to phase pre-stream
+11:19:51.685 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@bdc168 to phase prepare-send
+11:19:51.686 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@4c78d4 to phase pre-logical
+11:19:51.687 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@12a02d9 to phase pre-logical
+11:19:51.687 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@11f8234 to phase pre-logical
+11:19:51.687 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@1b3a9fe to phase pre-stream
+11:19:51.687 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutInterceptor@bee484 to phase pre-stream
+11:19:51.693 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d to phase pre-logical
+11:19:51.693 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1811d00 to phase marshal
+11:19:51.694 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@923ee6 to phase marshal
+11:19:51.694 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@89713 to phase post-logical
+11:19:51.696 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@119c9d2 to phase write
+11:19:51.696 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been (re)configured for plain http.
+11:19:51.696 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:51.696 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Auth Supplier configured for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'
+11:19:51.697 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit' has been configured for plain http.
+11:19:51.697 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - registering incoming observer: org.apache.cxf.endpoint.ClientImpl@7ac2c
+11:19:51.697 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@191d8c4 was created. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+
+11:19:51.697 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:51.698 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@11f8234
+11:19:51.698 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op: [OperationInfo: {http://soap.ebb.pay.and.smile.com/}deleteMarchandById]
+11:19:51.698 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.hasOutput(): true
+11:19:51.698 [main] DEBUG org.apache.cxf.jaxws.interceptors.HolderOutInterceptor - op.getOutput().size(): 1
+11:19:51.698 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@4c78d4
+11:19:51.698 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@12a02d9
+11:19:51.702 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:51.702 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@89713
+11:19:51.702 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@bdc168
+11:19:51.702 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@1d4cae3 to phase prepare-send-ending
+11:19:51.703 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@191d8c4 was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:51.703 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@1ab2585
+11:19:51.703 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@1b3a9fe
+11:19:51.703 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@bee484
+11:19:51.703 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3 to phase pre-stream-ending
+11:19:51.703 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@191d8c4 was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:51.704 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@119c9d2
+11:19:51.704 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@67c25 to phase write-ending
+11:19:51.704 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@191d8c4 was modified. Current flow:
+  setup [PolicyOutInterceptor]
+  pre-logical [HolderOutInterceptor, SwAOutInterceptor, WrapperClassOutInterceptor, SoapHeaderOutFilterInterceptor]
+  post-logical [SoapPreProtocolOutInterceptor]
+  prepare-send [MessageSenderInterceptor]
+  pre-stream [LoggingOutInterceptor, AttachmentOutInterceptor, StaxOutInterceptor]
+  write [SoapOutInterceptor]
+  marshal [WrappedOutInterceptor, BareOutInterceptor]
+  write-ending [SoapOutEndingInterceptor]
+  pre-stream-ending [StaxOutEndingInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+11:19:51.704 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1811d00
+11:19:51.704 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@923ee6
+11:19:51.705 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@67c25
+11:19:51.705 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:51.705 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@1d4cae3
+11:19:51.705 [main] INFO org.apache.cxf.services.SmileAndPayServiceService.SmileAndPayServicePort.SmileAndPayService - Outbound Message
+---------------------------
+ID: 4
+Address: http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], SOAPAction=[""]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:deleteMarchandById xmlns:ns2="http://soap.ebb.pay.and.smile.com/" xmlns:ns3="http://schemas.xmlsoap.org/wsdl/http/"><marchandId>1</marchandId></ns2:deleteMarchandById></soap:Body></soap:Envelope>
+--------------------------------------
+11:19:51.705 [main] DEBUG org.apache.cxf.transport.http.Headers - Accept: */*
+11:19:51.706 [main] DEBUG org.apache.cxf.transport.http.Headers - SOAPAction: ""
+11:19:51.706 [main] DEBUG org.apache.cxf.transport.http.HTTPConduit - No Trust Decider for Conduit '{http://soap.ebb.pay.and.smile.com/}SmileAndPayServicePort.http-conduit'. An afirmative Trust Decision is assumed.
+11:19:53.760 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@1d4cae3
+11:19:53.760 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutEndingInterceptor@9f80d3
+11:19:53.760 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor$SoapOutEndingInterceptor@67c25
+11:19:53.760 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.BareOutInterceptor@923ee6
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.wsdl.interceptors.WrappedOutInterceptor@1811d00
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapOutInterceptor@119c9d2
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.StaxOutInterceptor@bee484
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.AttachmentOutInterceptor@1b3a9fe
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.LoggingOutInterceptor@1ab2585
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@bdc168
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapPreProtocolOutInterceptor@89713
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.binding.soap.interceptor.SoapHeaderOutFilterInterceptor@bfd80d
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.WrapperClassOutInterceptor@12a02d9
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.SwAOutInterceptor@4c78d4
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.jaxws.interceptors.HolderOutInterceptor@11f8234
+11:19:53.761 [main] DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleFault on interceptor org.apache.cxf.ws.policy.PolicyOutInterceptor@9c877b
+11:19:53.763 [main] WARN org.apache.cxf.phase.PhaseInterceptorChain - Interceptor for {http://soap.ebb.pay.and.smile.com/}SmileAndPayServiceService#{http://soap.ebb.pay.and.smile.com/}deleteMarchandById has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:514)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:423)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:324)
+	at org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:277)
+	at org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)
+	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:139)
+	at com.sun.proxy.$Proxy90.deleteMarchandById(Unknown Source)
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1377)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1361)
+	at org.apache.cxf.io.CacheAndWriteOutputStream.postClose(CacheAndWriteOutputStream.java:56)
+	at org.apache.cxf.io.CachedOutputStream.close(CachedOutputStream.java:216)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:651)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 74 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:236)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1320)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1280)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:267)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1333)
+	... 79 common frames omitted
+]]></system-out>
+  </testcase>
+</testsuite>

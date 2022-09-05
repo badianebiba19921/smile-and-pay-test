@@ -10,6 +10,7 @@ import java.io.Serializable;
 
 @Setter
 @Getter
+@ToString
 @XmlRootElement
 public class SmileAndPayResponse implements Serializable {
 

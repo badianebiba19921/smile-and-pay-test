@@ -40,7 +40,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.20" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.20" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.20" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.3.20" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-rest:2.7.0" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-rest-webmvc:3.7.0" />
@@ -111,6 +110,7 @@
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:3.1.6" />
           <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.3" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
         </element>
       </element>
       <element id="directory" name="META-INF">

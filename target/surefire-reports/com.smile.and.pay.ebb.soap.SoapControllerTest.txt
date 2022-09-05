@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.smile.and.pay.ebb.soap.SoapControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 11.107 s <<< FAILURE! - in com.smile.and.pay.ebb.soap.SoapControllerTest
+test_delete_product  Time elapsed: 4.684 s  <<< ERROR!
+javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_product(SoapControllerTest.java:73)
+
+test_add_product  Time elapsed: 2.132 s  <<< ERROR!
+javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_product(SoapControllerTest.java:45)
+
+test_add_marchand  Time elapsed: 2.131 s  <<< ERROR!
+javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_add_marchand(SoapControllerTest.java:29)
+
+test_delete_marchand  Time elapsed: 2.156 s  <<< ERROR!
+javax.xml.ws.WebServiceException: Could not send Message.
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8080/soap-api/SmileAndPayService_1.0?wsdl: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.smile.and.pay.ebb.soap.SoapControllerTest.test_delete_marchand(SoapControllerTest.java:59)
+

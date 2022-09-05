@@ -1,1 +1,3 @@
 com\smile\and\pay\ebb\SmileAndPayTestApplicationTests.class
+com\smile\and\pay\ebb\rest\TestRestController.class
+com\smile\and\pay\ebb\soap\SoapControllerTest.class

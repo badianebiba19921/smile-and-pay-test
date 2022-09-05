@@ -5,8 +5,11 @@ com\smile\and\pay\ebb\models\Address.class
 com\smile\and\pay\ebb\repository\ProductRepository.class
 com\smile\and\pay\ebb\config\WebServiceConfiguration.class
 com\smile\and\pay\ebb\models\Marchand.class
+com\smile\and\pay\ebb\models\Address$AddressBuilder.class
 com\smile\and\pay\ebb\soap\SmileAndPayServiceImpl.class
+com\smile\and\pay\ebb\models\Product$ProductBuilder.class
 com\smile\and\pay\ebb\rest\SmileAndPayRest.class
+com\smile\and\pay\ebb\models\Marchand$MarchandBuilder.class
 com\smile\and\pay\ebb\models\Product.class
 com\smile\and\pay\ebb\models\SmileAndPayResponse.class
 com\smile\and\pay\ebb\models\MarchandProduct.class

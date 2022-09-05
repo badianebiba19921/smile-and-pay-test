@@ -25,6 +25,8 @@
 
   <xs:element name="deleteProductByIdResponse" type="tns:deleteProductByIdResponse"/>
 
+  <xs:element name="marchand" type="tns:marchand"/>
+
   <xs:element name="product" type="tns:product"/>
 
   <xs:element name="smileAndPayResponse" type="tns:smileAndPayResponse"/>
@@ -153,13 +155,13 @@
     </xs:complexType>
   </xs:element>
 
-  <xs:complexType name="operationType">
+  <xs:complexType name="addressType">
     <xs:sequence/>
     <xs:attribute name="location" type="xs:anyURI" use="required"/>
     <xs:anyAttribute namespace="##other" processContents="skip"/>
   </xs:complexType>
 
-  <xs:complexType name="addressType">
+  <xs:complexType name="operationType">
     <xs:sequence/>
     <xs:attribute name="location" type="xs:anyURI" use="required"/>
     <xs:anyAttribute namespace="##other" processContents="skip"/>

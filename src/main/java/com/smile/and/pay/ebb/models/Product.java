@@ -15,6 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Table(name = "products")
+@Builder
 @XmlRootElement
 public class Product implements Serializable {
     @Id
@@ -27,7 +28,7 @@ public class Product implements Serializable {
     private double weight;
     private double height;
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinTable( name = "marchands_products",
             joinColumns = @JoinColumn( name = "id_product" ),
             inverseJoinColumns = @JoinColumn( name = "id_marchand" ) )
